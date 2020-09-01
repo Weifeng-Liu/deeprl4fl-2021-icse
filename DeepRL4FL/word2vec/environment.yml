@@ -1,0 +1,23 @@
+name: word2vec-dev
+
+dependencies:
+  - python=3.7
+  - numpy
+  - cython
+  - scikit-learn
+  
+  # Dev
+  - jupyterlab
+  - pip:
+    - pylint
+    - ropes
+    - yapf
+    - pytest
+    - pytest-cov
+    - pytest-cov
+    - python-coveralls
+    - nose
+    - mock
+    - versioneer
+    - twine>=1.11.0
+    - wheel>=0.31.0
